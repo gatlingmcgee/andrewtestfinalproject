@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Hockey: Subsrcibe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Planet Hockey: Subscribe</title>
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="subscribe.html">Subscribe</a>
+        </div>
+        <div class="login-card">
+            <img src="images/Planet_Hockey_logo.png" alt="logo">
+            <h1>Subscribe</h1>
+        </div>
+    </header>
+    <main>
+        <div class="subscribe">
+            <form method="get">
+                <label for="fname">First Name*</label>
+                <input type="text" placeholder="Enter First Name" name="fname" id="fname "required>
+                <label for="lname">Last Name*</label>
+                <input type="text" placeholder="Enter Last Name" name="lname" id="lname" required>
+                <label for="pword">Password*</label>
+                <input type="password" placeholder="Enter a password" name="psword" id="pswrd" required>
+                <label for="cfmpw">Confirm Password*</label>
+                <input type="password" placeholder="Confirm password" name="cfmpw" id="cfmpw" required>
+                <label class="email">Email*</label>
+                <input type="email" name="email" id="email"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com$" placeholder="Enter your email address"
+                    required>
+                <label>
+                    <input type="checkbox" chekced="checked" name="remember"> Remember me
+                </label>
+                <button type="crtacct">Create Account</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

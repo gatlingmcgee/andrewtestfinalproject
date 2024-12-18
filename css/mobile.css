@@ -1,0 +1,67 @@
+@import url('https://fonts.google.com/specimen/Manrope?query=cer');
+@import url('https://fonts.google.com/specimen/Inter?query=cer');
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: #8CF0F0; 
+        color: #2649a0;
+        font-family: 'Manrope', sans-serif;
+    }
+    
+    .main-card {
+        padding: 20px;
+        margin: auto;
+        display: inline-flex;
+        width: 405px;
+        background-color: #D2D2DF;
+    }
+
+    .login-card {
+        padding: 10px;
+        display: inline-block;
+        width: 405px;
+        background-color: #D2D2DF;
+    }
+
+    .login {
+        width: 50%;
+        padding: 10px;
+        font-size: large;
+        align-items: left;
+        background-color: #D2D2DF;
+    }
+    
+    .login form label {
+        display: block;
+        padding: 10px;
+    }
+
+    .login-card img {
+        width: 200px;
+    }
+
+    .main-card img {
+        width: 350px;
+    }
+
+    h1, h2 {
+        flex-direction: column;
+    }
+
+    .top-nav {
+        width: 605px;
+        margin: auto;
+        font-size: large;
+        padding: 5px;
+        background-color: #FFC4E1;
+    }    
+
+    
+    .message-card {
+        padding: 23px;
+        width: 400px;
+        font-size: large;
+        background-color: #D2D2DF;
+    }
+    
+    
+}
